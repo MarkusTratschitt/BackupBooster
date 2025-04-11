@@ -157,7 +157,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: - Script Starter
 
     func runScript(_ scriptName: String) {
-        let path = "\(NSHomeDirectory())/Repositories/Backup Booster/Scripts/\(scriptName)"
+        guard let path = Bundle.main.path(forResource: scriptName, ofType: nil)else {
+            print("❌ Script nicht gefunden: \(scriptName)")
+            return
+        }
         let task = Process()
         task.launchPath = "/bin/bash"
         task.arguments = [path]
