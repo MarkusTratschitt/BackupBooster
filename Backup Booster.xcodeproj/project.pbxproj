@@ -16,6 +16,10 @@
 		739FEEDA2DA9462F003D9EEB /* Backup_BoosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */; };
 		739FEEE42DA9462F003D9EEB /* Backup_BoosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */; };
 		739FEEE62DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */; };
+		739FEEF82DA94B86003D9EEB /* config in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF42DA94B86003D9EEB /* config */; };
+		739FEEF92DA94B86003D9EEB /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF52DA94B86003D9EEB /* Scripts */; };
+		739FEEFA2DA94B86003D9EEB /* LaunchAgent in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF62DA94B86003D9EEB /* LaunchAgent */; };
+		739FEEFB2DA94B86003D9EEB /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF72DA94B86003D9EEB /* Plugins */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		739FEEDF2DA9462F003D9EEB /* Backup BoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backup BoosterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITests.swift; sourceTree = "<group>"; };
 		739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		739FEEF42DA94B86003D9EEB /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = SOURCE_ROOT; };
+		739FEEF52DA94B86003D9EEB /* Scripts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scripts; sourceTree = SOURCE_ROOT; };
+		739FEEF62DA94B86003D9EEB /* LaunchAgent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LaunchAgent; sourceTree = SOURCE_ROOT; };
+		739FEEF72DA94B86003D9EEB /* Plugins */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Plugins; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				739FEEC22DA9462B003D9EEB /* Backup_BoosterApp.swift */,
+				739FEEF42DA94B86003D9EEB /* config */,
+				739FEEF62DA94B86003D9EEB /* LaunchAgent */,
+				739FEEF72DA94B86003D9EEB /* Plugins */,
+				739FEEF52DA94B86003D9EEB /* Scripts */,
 				739FEEC42DA9462B003D9EEB /* ContentView.swift */,
 				739FEEC62DA9462E003D9EEB /* Assets.xcassets */,
 				739FEECB2DA9462E003D9EEB /* Persistence.swift */,
@@ -240,7 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				739FEECA2DA9462E003D9EEB /* Preview Assets.xcassets in Resources */,
+				739FEEF82DA94B86003D9EEB /* config in Resources */,
 				739FEEC72DA9462E003D9EEB /* Assets.xcassets in Resources */,
+				739FEEFB2DA94B86003D9EEB /* Plugins in Resources */,
+				739FEEF92DA94B86003D9EEB /* Scripts in Resources */,
+				739FEEFA2DA94B86003D9EEB /* LaunchAgent in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
