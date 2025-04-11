@@ -16,6 +16,7 @@ BACKUP_DISK_NAME=$(basename "$BACKUP_MOUNT")
 
 # 📁 Logfile definieren (Standard oder aus config)
 LOGFILE="${LOGFILE:-$HOME/Library/Logs/BackupBooster.log}"
+touch "$LOGFILE"
 MAX_LOG_LINES="${MAX_LOG_LINES:-500}"
 
 # ❗ Fehler, wenn kein Ziel gefunden
@@ -38,10 +39,6 @@ fi
 
 echo "📡 Backup-Monitor gestartet. Drücke STRG+C zum Beenden."
 echo "------------------------------------------------------"
-
-# 📁 Logfile definieren
-LOGFILE="${LOGFILE:-$HOME/Library/Logs/backupbooster.log}"
-touch "$LOGFILE"
 
 # 📓 Logging-Funktion mit Rotation
 log_entry() {
