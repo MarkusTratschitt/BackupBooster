@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		739FEEC32DA9462B003D9EEB /* Backup_BoosterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEC22DA9462B003D9EEB /* Backup_BoosterApp.swift */; };
+		739FEEC52DA9462B003D9EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEC42DA9462B003D9EEB /* ContentView.swift */; };
+		739FEEC72DA9462E003D9EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEC62DA9462E003D9EEB /* Assets.xcassets */; };
+		739FEECA2DA9462E003D9EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEC92DA9462E003D9EEB /* Preview Assets.xcassets */; };
+		739FEECC2DA9462E003D9EEB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEECB2DA9462E003D9EEB /* Persistence.swift */; };
+		739FEECF2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 739FEECD2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld */; };
+		739FEEDA2DA9462F003D9EEB /* Backup_BoosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */; };
+		739FEEE42DA9462F003D9EEB /* Backup_BoosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */; };
+		739FEEE62DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		739FEED62DA9462F003D9EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739FEEB72DA9462B003D9EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739FEEBE2DA9462B003D9EEB;
+			remoteInfo = "Backup Booster";
+		};
+		739FEEE02DA9462F003D9EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739FEEB72DA9462B003D9EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739FEEBE2DA9462B003D9EEB;
+			remoteInfo = "Backup Booster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		739FEEBF2DA9462B003D9EEB /* Backup Booster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backup Booster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739FEEC22DA9462B003D9EEB /* Backup_BoosterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterApp.swift; sourceTree = "<group>"; };
+		739FEEC42DA9462B003D9EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		739FEEC62DA9462E003D9EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		739FEEC92DA9462E003D9EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		739FEECB2DA9462E003D9EEB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		739FEECE2DA9462E003D9EEB /* Backup_Booster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Backup_Booster.xcdatamodel; sourceTree = "<group>"; };
+		739FEED02DA9462E003D9EEB /* Backup_Booster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Backup_Booster.entitlements; sourceTree = "<group>"; };
+		739FEED52DA9462F003D9EEB /* Backup BoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backup BoosterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterTests.swift; sourceTree = "<group>"; };
+		739FEEDF2DA9462F003D9EEB /* Backup BoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backup BoosterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITests.swift; sourceTree = "<group>"; };
+		739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739FEEBC2DA9462B003D9EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739FEED22DA9462F003D9EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739FEEDC2DA9462F003D9EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739FEEB62DA9462B003D9EEB = {
+			isa = PBXGroup;
+			children = (
+				739FEEC12DA9462B003D9EEB /* Backup Booster */,
+				739FEED82DA9462F003D9EEB /* Backup BoosterTests */,
+				739FEEE22DA9462F003D9EEB /* Backup BoosterUITests */,
+				739FEEC02DA9462B003D9EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		739FEEC02DA9462B003D9EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				739FEEBF2DA9462B003D9EEB /* Backup Booster.app */,
+				739FEED52DA9462F003D9EEB /* Backup BoosterTests.xctest */,
+				739FEEDF2DA9462F003D9EEB /* Backup BoosterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739FEEC12DA9462B003D9EEB /* Backup Booster */ = {
+			isa = PBXGroup;
+			children = (
+				739FEEC22DA9462B003D9EEB /* Backup_BoosterApp.swift */,
+				739FEEC42DA9462B003D9EEB /* ContentView.swift */,
+				739FEEC62DA9462E003D9EEB /* Assets.xcassets */,
+				739FEECB2DA9462E003D9EEB /* Persistence.swift */,
+				739FEED02DA9462E003D9EEB /* Backup_Booster.entitlements */,
+				739FEECD2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld */,
+				739FEEC82DA9462E003D9EEB /* Preview Content */,
+			);
+			path = "Backup Booster";
+			sourceTree = "<group>";
+		};
+		739FEEC82DA9462E003D9EEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				739FEEC92DA9462E003D9EEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		739FEED82DA9462F003D9EEB /* Backup BoosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */,
+			);
+			path = "Backup BoosterTests";
+			sourceTree = "<group>";
+		};
+		739FEEE22DA9462F003D9EEB /* Backup BoosterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */,
+				739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */,
+			);
+			path = "Backup BoosterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		739FEEBE2DA9462B003D9EEB /* Backup Booster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739FEEE92DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup Booster" */;
+			buildPhases = (
+				739FEEBB2DA9462B003D9EEB /* Sources */,
+				739FEEBC2DA9462B003D9EEB /* Frameworks */,
+				739FEEBD2DA9462B003D9EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Backup Booster";
+			productName = "Backup Booster";
+			productReference = 739FEEBF2DA9462B003D9EEB /* Backup Booster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		739FEED42DA9462F003D9EEB /* Backup BoosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739FEEEC2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterTests" */;
+			buildPhases = (
+				739FEED12DA9462F003D9EEB /* Sources */,
+				739FEED22DA9462F003D9EEB /* Frameworks */,
+				739FEED32DA9462F003D9EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739FEED72DA9462F003D9EEB /* PBXTargetDependency */,
+			);
+			name = "Backup BoosterTests";
+			productName = "Backup BoosterTests";
+			productReference = 739FEED52DA9462F003D9EEB /* Backup BoosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		739FEEDE2DA9462F003D9EEB /* Backup BoosterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739FEEEF2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterUITests" */;
+			buildPhases = (
+				739FEEDB2DA9462F003D9EEB /* Sources */,
+				739FEEDC2DA9462F003D9EEB /* Frameworks */,
+				739FEEDD2DA9462F003D9EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739FEEE12DA9462F003D9EEB /* PBXTargetDependency */,
+			);
+			name = "Backup BoosterUITests";
+			productName = "Backup BoosterUITests";
+			productReference = 739FEEDF2DA9462F003D9EEB /* Backup BoosterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739FEEB72DA9462B003D9EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					739FEEBE2DA9462B003D9EEB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					739FEED42DA9462F003D9EEB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 739FEEBE2DA9462B003D9EEB;
+					};
+					739FEEDE2DA9462F003D9EEB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 739FEEBE2DA9462B003D9EEB;
+					};
+				};
+			};
+			buildConfigurationList = 739FEEBA2DA9462B003D9EEB /* Build configuration list for PBXProject "Backup Booster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739FEEB62DA9462B003D9EEB;
+			productRefGroup = 739FEEC02DA9462B003D9EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739FEEBE2DA9462B003D9EEB /* Backup Booster */,
+				739FEED42DA9462F003D9EEB /* Backup BoosterTests */,
+				739FEEDE2DA9462F003D9EEB /* Backup BoosterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739FEEBD2DA9462B003D9EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739FEECA2DA9462E003D9EEB /* Preview Assets.xcassets in Resources */,
+				739FEEC72DA9462E003D9EEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739FEED32DA9462F003D9EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739FEEDD2DA9462F003D9EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739FEEBB2DA9462B003D9EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739FEECC2DA9462E003D9EEB /* Persistence.swift in Sources */,
+				739FEEC52DA9462B003D9EEB /* ContentView.swift in Sources */,
+				739FEECF2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld in Sources */,
+				739FEEC32DA9462B003D9EEB /* Backup_BoosterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739FEED12DA9462F003D9EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739FEEDA2DA9462F003D9EEB /* Backup_BoosterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739FEEDB2DA9462F003D9EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739FEEE42DA9462F003D9EEB /* Backup_BoosterUITests.swift in Sources */,
+				739FEEE62DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		739FEED72DA9462F003D9EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739FEEBE2DA9462B003D9EEB /* Backup Booster */;
+			targetProxy = 739FEED62DA9462F003D9EEB /* PBXContainerItemProxy */;
+		};
+		739FEEE12DA9462F003D9EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739FEEBE2DA9462B003D9EEB /* Backup Booster */;
+			targetProxy = 739FEEE02DA9462F003D9EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		739FEEE72DA9462F003D9EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		739FEEE82DA9462F003D9EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		739FEEEA2DA9462F003D9EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Backup Booster/Backup_Booster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backup Booster/Preview Content\"";
+				DEVELOPMENT_TEAM = FY2F7KDTVH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.markustratschitt.Backup-Booster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		739FEEEB2DA9462F003D9EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Backup Booster/Backup_Booster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backup Booster/Preview Content\"";
+				DEVELOPMENT_TEAM = FY2F7KDTVH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.markustratschitt.Backup-Booster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		739FEEED2DA9462F003D9EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2F7KDTVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.markustratschitt.Backup-BoosterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backup Booster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backup Booster";
+			};
+			name = Debug;
+		};
+		739FEEEE2DA9462F003D9EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2F7KDTVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.markustratschitt.Backup-BoosterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backup Booster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backup Booster";
+			};
+			name = Release;
+		};
+		739FEEF02DA9462F003D9EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2F7KDTVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.markustratschitt.Backup-BoosterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Backup Booster";
+			};
+			name = Debug;
+		};
+		739FEEF12DA9462F003D9EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2F7KDTVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.markustratschitt.Backup-BoosterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Backup Booster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739FEEBA2DA9462B003D9EEB /* Build configuration list for PBXProject "Backup Booster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739FEEE72DA9462F003D9EEB /* Debug */,
+				739FEEE82DA9462F003D9EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739FEEE92DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup Booster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739FEEEA2DA9462F003D9EEB /* Debug */,
+				739FEEEB2DA9462F003D9EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739FEEEC2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739FEEED2DA9462F003D9EEB /* Debug */,
+				739FEEEE2DA9462F003D9EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739FEEEF2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739FEEF02DA9462F003D9EEB /* Debug */,
+				739FEEF12DA9462F003D9EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		739FEECD2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				739FEECE2DA9462E003D9EEB /* Backup_Booster.xcdatamodel */,
+			);
+			currentVersion = 739FEECE2DA9462E003D9EEB /* Backup_Booster.xcdatamodel */;
+			path = Backup_Booster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 739FEEB72DA9462B003D9EEB /* Project object */;
+}
