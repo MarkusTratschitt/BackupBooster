@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		739FEEBF2DA9462B003D9EEB /* Backup Booster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backup Booster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739FEEBF2DA9462B003D9EEB /* BackupBooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackupBooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739FEEC22DA9462B003D9EEB /* Backup_BoosterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterApp.swift; sourceTree = "<group>"; };
 		739FEEC42DA9462B003D9EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		739FEEC62DA9462E003D9EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		739FEECB2DA9462E003D9EEB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		739FEECE2DA9462E003D9EEB /* Backup_Booster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Backup_Booster.xcdatamodel; sourceTree = "<group>"; };
 		739FEED02DA9462E003D9EEB /* Backup_Booster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Backup_Booster.entitlements; sourceTree = "<group>"; };
-		739FEED52DA9462F003D9EEB /* Backup BoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backup BoosterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739FEED52DA9462F003D9EEB /* BackupBoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackupBoosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterTests.swift; sourceTree = "<group>"; };
-		739FEEDF2DA9462F003D9EEB /* Backup BoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backup BoosterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739FEEDF2DA9462F003D9EEB /* BackupBoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackupBoosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITests.swift; sourceTree = "<group>"; };
 		739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		739FEEF42DA94B86003D9EEB /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = SOURCE_ROOT; };
@@ -103,9 +103,9 @@
 		739FEEC02DA9462B003D9EEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				739FEEBF2DA9462B003D9EEB /* Backup Booster.app */,
-				739FEED52DA9462F003D9EEB /* Backup BoosterTests.xctest */,
-				739FEEDF2DA9462F003D9EEB /* Backup BoosterUITests.xctest */,
+				739FEEBF2DA9462B003D9EEB /* BackupBooster.app */,
+				739FEED52DA9462F003D9EEB /* BackupBoosterTests.xctest */,
+				739FEEDF2DA9462F003D9EEB /* BackupBoosterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		739FEEBE2DA9462B003D9EEB /* Backup Booster */ = {
+		739FEEBE2DA9462B003D9EEB /* BackupBooster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 739FEEE92DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup Booster" */;
+			buildConfigurationList = 739FEEE92DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "BackupBooster" */;
 			buildPhases = (
 				739FEEBB2DA9462B003D9EEB /* Sources */,
 				739FEEBC2DA9462B003D9EEB /* Frameworks */,
@@ -171,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = "Backup Booster";
+			name = BackupBooster;
 			productName = "Backup Booster";
-			productReference = 739FEEBF2DA9462B003D9EEB /* Backup Booster.app */;
+			productReference = 739FEEBF2DA9462B003D9EEB /* BackupBooster.app */;
 			productType = "com.apple.product-type.application";
 		};
-		739FEED42DA9462F003D9EEB /* Backup BoosterTests */ = {
+		739FEED42DA9462F003D9EEB /* BackupBoosterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 739FEEEC2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterTests" */;
+			buildConfigurationList = 739FEEEC2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "BackupBoosterTests" */;
 			buildPhases = (
 				739FEED12DA9462F003D9EEB /* Sources */,
 				739FEED22DA9462F003D9EEB /* Frameworks */,
@@ -189,14 +189,14 @@
 			dependencies = (
 				739FEED72DA9462F003D9EEB /* PBXTargetDependency */,
 			);
-			name = "Backup BoosterTests";
+			name = BackupBoosterTests;
 			productName = "Backup BoosterTests";
-			productReference = 739FEED52DA9462F003D9EEB /* Backup BoosterTests.xctest */;
+			productReference = 739FEED52DA9462F003D9EEB /* BackupBoosterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		739FEEDE2DA9462F003D9EEB /* Backup BoosterUITests */ = {
+		739FEEDE2DA9462F003D9EEB /* BackupBoosterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 739FEEEF2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterUITests" */;
+			buildConfigurationList = 739FEEEF2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "BackupBoosterUITests" */;
 			buildPhases = (
 				739FEEDB2DA9462F003D9EEB /* Sources */,
 				739FEEDC2DA9462F003D9EEB /* Frameworks */,
@@ -207,9 +207,9 @@
 			dependencies = (
 				739FEEE12DA9462F003D9EEB /* PBXTargetDependency */,
 			);
-			name = "Backup BoosterUITests";
+			name = BackupBoosterUITests;
 			productName = "Backup BoosterUITests";
-			productReference = 739FEEDF2DA9462F003D9EEB /* Backup BoosterUITests.xctest */;
+			productReference = 739FEEDF2DA9462F003D9EEB /* BackupBoosterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 739FEEBA2DA9462B003D9EEB /* Build configuration list for PBXProject "Backup Booster" */;
+			buildConfigurationList = 739FEEBA2DA9462B003D9EEB /* Build configuration list for PBXProject "BackupBooster" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -248,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				739FEEBE2DA9462B003D9EEB /* Backup Booster */,
-				739FEED42DA9462F003D9EEB /* Backup BoosterTests */,
-				739FEEDE2DA9462F003D9EEB /* Backup BoosterUITests */,
+				739FEEBE2DA9462B003D9EEB /* BackupBooster */,
+				739FEED42DA9462F003D9EEB /* BackupBoosterTests */,
+				739FEEDE2DA9462F003D9EEB /* BackupBoosterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,12 +322,12 @@
 /* Begin PBXTargetDependency section */
 		739FEED72DA9462F003D9EEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 739FEEBE2DA9462B003D9EEB /* Backup Booster */;
+			target = 739FEEBE2DA9462B003D9EEB /* BackupBooster */;
 			targetProxy = 739FEED62DA9462F003D9EEB /* PBXContainerItemProxy */;
 		};
 		739FEEE12DA9462F003D9EEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 739FEEBE2DA9462B003D9EEB /* Backup Booster */;
+			target = 739FEEBE2DA9462B003D9EEB /* BackupBooster */;
 			targetProxy = 739FEEE02DA9462F003D9EEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -515,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backup Booster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backup Booster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackupBooster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackupBooster";
 			};
 			name = Debug;
 		};
@@ -534,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backup Booster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backup Booster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackupBooster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackupBooster";
 			};
 			name = Release;
 		};
@@ -575,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		739FEEBA2DA9462B003D9EEB /* Build configuration list for PBXProject "Backup Booster" */ = {
+		739FEEBA2DA9462B003D9EEB /* Build configuration list for PBXProject "BackupBooster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				739FEEE72DA9462F003D9EEB /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		739FEEE92DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup Booster" */ = {
+		739FEEE92DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "BackupBooster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				739FEEEA2DA9462F003D9EEB /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		739FEEEC2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterTests" */ = {
+		739FEEEC2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "BackupBoosterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				739FEEED2DA9462F003D9EEB /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		739FEEEF2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "Backup BoosterUITests" */ = {
+		739FEEEF2DA9462F003D9EEB /* Build configuration list for PBXNativeTarget "BackupBoosterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				739FEEF02DA9462F003D9EEB /* Debug */,

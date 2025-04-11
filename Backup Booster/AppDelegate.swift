@@ -146,7 +146,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @objc func deleteSingleBackup() { runScript("delete-single-backup.sh") }
     @objc func resetThrottle() { runScript("reset-throttle.sh") }
     @objc func enableSpotlight() { runScript("enable-spotlight.sh") }
-    @objc func startBooster() { runScript("turbo-backup.sh") }
+    @objc func startBooster() { runScript("BackupBooster.sh") }
 
     @objc func quit() {
         NSApplication.shared.terminate(nil)

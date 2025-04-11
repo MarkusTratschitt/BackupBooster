@@ -51,7 +51,7 @@ echo "⏸️ Backup pausieren | bash=\"$HOME/TurboMonitor/Scripts/pause-backup.s
 echo "▶️ Backup fortsetzen | bash=\"$HOME/TurboMonitor/Scripts/resume-backup.sh\" terminal=false"
 echo "⏭️ Backup überspringen | bash=\"$HOME/TurboMonitor/Scripts/skip-backup.sh\" terminal=false"
 echo "---"
-echo "📈 Boost starten | bash=\"$HOME/TurboMonitor/Scripts/turbo-backup.sh\" terminal=true"
+echo "📈 Boost starten | bash=\"$HOME/TurboMonitor/Scripts/BackupBooster.sh\" terminal=true"
 echo "🔧 Werkzeuge"
 echo "🧹 Alte Backups löschen | bash=\"$HOME/TurboMonitor/Scripts/clean-old-backups.sh\" terminal=true"
 echo "📁 Einzelnes Backup löschen | bash=\"$HOME/TurboMonitor/Scripts/delete-single-backup.sh\" terminal=true"

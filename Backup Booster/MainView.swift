@@ -38,7 +38,7 @@ struct MainView: View {
                     AppDelegate().runScript("stop-backup.sh")
                 }
                 Button("📈 Booster starten") {
-                    AppDelegate().runScript("turbo-backup.sh")
+                    AppDelegate().runScript("BackupBooster.sh")
                 }
                 Button("📖 Log anzeigen") {
                     AppDelegate().runScript("open-log.sh")

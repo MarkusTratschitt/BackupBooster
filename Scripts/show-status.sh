@@ -7,7 +7,7 @@
 #  
 #!/bin/bash
 
-LOGFILE="$HOME/Library/Logs/turbo-backup.log"
+LOGFILE="$HOME/Library/Logs/BackupBooster.log"
 LATEST=$(tail -n 1 "$LOGFILE")
 
 if [[ -z "$LATEST" ]]; then

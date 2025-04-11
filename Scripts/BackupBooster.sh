@@ -3,7 +3,7 @@
 # Turbo Time Machine Monitor Script für macOS
 
 # 🔧 Konfigurationsdatei laden (optional)
-CONFIG_FILE="$HOME/Library/Application Support/turbo-backup/config.conf"
+CONFIG_FILE="$HOME/Library/Application Support/BackupBooster/config.conf"
 [[ -f "$CONFIG_FILE" ]] && source "$CONFIG_FILE"
 
 # 📦 Backup-Ziel automatisch erkennen, falls nicht gesetzt
@@ -15,7 +15,7 @@ fi
 BACKUP_DISK_NAME=$(basename "$BACKUP_MOUNT")
 
 # 📁 Logfile definieren (Standard oder aus config)
-LOGFILE="${LOGFILE:-$HOME/Library/Logs/turbo-backup.log}"
+LOGFILE="${LOGFILE:-$HOME/Library/Logs/BackupBooster.log}"
 MAX_LOG_LINES="${MAX_LOG_LINES:-500}"
 
 # ❗ Fehler, wenn kein Ziel gefunden

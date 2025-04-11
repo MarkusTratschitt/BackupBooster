@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.markustratschitt.BackupBooster</string>
+	<string>de.markustratschitt.BackupBooster</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/bin/osascript</string>
 		<string>-e</string>
-		<string>tell application &quot;Terminal&quot; to do script &quot;$HOME/turbo-backup.sh&quot;</string>
+		<string>tell application &quot;Terminal&quot; to do script &quot;$HOME/BackupBooster.sh&quot;</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardOutPath</key>
-	<string>/tmp/turbo-backup.out</string>
+	<string>/tmp/BackupBooster.out</string>
 	<key>StandardErrorPath</key>
-	<string>/tmp/turbo-backup.err</string>
+	<string>/tmp/BackupBooster.err</string>
 </dict>
 </plist>
