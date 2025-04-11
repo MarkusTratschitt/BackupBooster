@@ -9,21 +9,34 @@
 /* Begin PBXBuildFile section */
 		739FEEC32DA9462B003D9EEB /* BackupBoosterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEC22DA9462B003D9EEB /* BackupBoosterApp.swift */; };
 		739FEEC52DA9462B003D9EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEC42DA9462B003D9EEB /* ContentView.swift */; };
-		739FEEC72DA9462E003D9EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEC62DA9462E003D9EEB /* Assets.xcassets */; };
-		739FEECA2DA9462E003D9EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEC92DA9462E003D9EEB /* Preview Assets.xcassets */; };
 		739FEECC2DA9462E003D9EEB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEECB2DA9462E003D9EEB /* Persistence.swift */; };
 		739FEECF2DA9462E003D9EEB /* BackupBooster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 739FEECD2DA9462E003D9EEB /* BackupBooster.xcdatamodeld */; };
 		739FEEDA2DA9462F003D9EEB /* BackupBoosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEED92DA9462F003D9EEB /* BackupBoosterTests.swift */; };
 		739FEEE42DA9462F003D9EEB /* BackupBoosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE32DA9462F003D9EEB /* BackupBoosterUITests.swift */; };
 		739FEEE62DA9462F003D9EEB /* BackupBoosterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE52DA9462F003D9EEB /* BackupBoosterUITestsLaunchTests.swift */; };
-		739FEEF82DA94B86003D9EEB /* config in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF42DA94B86003D9EEB /* config */; };
-		739FEEF92DA94B86003D9EEB /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF52DA94B86003D9EEB /* Scripts */; };
-		739FEEFA2DA94B86003D9EEB /* LaunchAgent in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF62DA94B86003D9EEB /* LaunchAgent */; };
-		739FEEFB2DA94B86003D9EEB /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF72DA94B86003D9EEB /* Plugins */; };
 		739FEEFD2DA954C1003D9EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEFC2DA954C1003D9EEB /* AppDelegate.swift */; };
 		739FEEFF2DA95D5D003D9EEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEFE2DA95D5D003D9EEB /* SettingsView.swift */; };
 		739FEF012DA960EE003D9EEB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEF002DA960EE003D9EEB /* MainView.swift */; };
-		739FEF032DA9B9E3003D9EEB /* Scripts in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEEF52DA94B86003D9EEB /* Scripts */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF252DA9CDB5003D9EEB /* BackupBooster.5m.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF232DA9CC8C003D9EEB /* BackupBooster.5m.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF262DA9CDB5003D9EEB /* de.markustratschitt.backupbooster.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF212DA9CC6B003D9EEB /* de.markustratschitt.backupbooster.plist */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF272DA9CDB5003D9EEB /* config.conf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF1F2DA9CC41003D9EEB /* config.conf */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF282DA9CDB5003D9EEB /* BackupBooster.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF0F2DA9CC18003D9EEB /* BackupBooster.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF292DA9CDB5003D9EEB /* clean-old-backups.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF112DA9CC18003D9EEB /* clean-old-backups.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF2A2DA9CDB5003D9EEB /* clear-log.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF0C2DA9CC17003D9EEB /* clear-log.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF2B2DA9CDB5003D9EEB /* delete-single-backup.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF0B2DA9CC17003D9EEB /* delete-single-backup.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF2C2DA9CDB5003D9EEB /* enable-spotlight.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF0A2DA9CC17003D9EEB /* enable-spotlight.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF2D2DA9CDB5003D9EEB /* latest-backup.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF052DA9CC17003D9EEB /* latest-backup.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF2E2DA9CDB5003D9EEB /* open-log.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF082DA9CC17003D9EEB /* open-log.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF2F2DA9CDB5003D9EEB /* pause-backup.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF0D2DA9CC17003D9EEB /* pause-backup.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF302DA9CDB5003D9EEB /* reset-throttle.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF092DA9CC17003D9EEB /* reset-throttle.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF312DA9CDB5003D9EEB /* show-status.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF072DA9CC17003D9EEB /* show-status.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF322DA9CDB5003D9EEB /* skip-backup.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF102DA9CC18003D9EEB /* skip-backup.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF332DA9CDB5003D9EEB /* start-backup.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF062DA9CC17003D9EEB /* start-backup.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF342DA9CDB5003D9EEB /* stop-backup.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 739FEF0E2DA9CC17003D9EEB /* stop-backup.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		739FEF3D2DA9CF82003D9EEB /* config in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF42DA94B86003D9EEB /* config */; };
+		739FEF3E2DA9CF82003D9EEB /* LaunchAgent in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF62DA94B86003D9EEB /* LaunchAgent */; };
+		739FEF3F2DA9CF82003D9EEB /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF72DA94B86003D9EEB /* Plugins */; };
+		739FEF402DA9CF82003D9EEB /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF52DA94B86003D9EEB /* Scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +63,22 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				739FEF032DA9B9E3003D9EEB /* Scripts in CopyFiles */,
+				739FEF252DA9CDB5003D9EEB /* BackupBooster.5m.sh in CopyFiles */,
+				739FEF262DA9CDB5003D9EEB /* de.markustratschitt.backupbooster.plist in CopyFiles */,
+				739FEF272DA9CDB5003D9EEB /* config.conf in CopyFiles */,
+				739FEF282DA9CDB5003D9EEB /* BackupBooster.sh in CopyFiles */,
+				739FEF292DA9CDB5003D9EEB /* clean-old-backups.sh in CopyFiles */,
+				739FEF2A2DA9CDB5003D9EEB /* clear-log.sh in CopyFiles */,
+				739FEF2B2DA9CDB5003D9EEB /* delete-single-backup.sh in CopyFiles */,
+				739FEF2C2DA9CDB5003D9EEB /* enable-spotlight.sh in CopyFiles */,
+				739FEF2D2DA9CDB5003D9EEB /* latest-backup.sh in CopyFiles */,
+				739FEF2E2DA9CDB5003D9EEB /* open-log.sh in CopyFiles */,
+				739FEF2F2DA9CDB5003D9EEB /* pause-backup.sh in CopyFiles */,
+				739FEF302DA9CDB5003D9EEB /* reset-throttle.sh in CopyFiles */,
+				739FEF312DA9CDB5003D9EEB /* show-status.sh in CopyFiles */,
+				739FEF322DA9CDB5003D9EEB /* skip-backup.sh in CopyFiles */,
+				739FEF332DA9CDB5003D9EEB /* start-backup.sh in CopyFiles */,
+				739FEF342DA9CDB5003D9EEB /* stop-backup.sh in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,22 @@
 		739FEEFE2DA95D5D003D9EEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		739FEF002DA960EE003D9EEB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		739FEF042DA9BC1B003D9EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		739FEF052DA9CC17003D9EEB /* latest-backup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "latest-backup.sh"; path = "Scripts/latest-backup.sh"; sourceTree = "<group>"; };
+		739FEF062DA9CC17003D9EEB /* start-backup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "start-backup.sh"; path = "Scripts/start-backup.sh"; sourceTree = "<group>"; };
+		739FEF072DA9CC17003D9EEB /* show-status.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "show-status.sh"; path = "Scripts/show-status.sh"; sourceTree = "<group>"; };
+		739FEF082DA9CC17003D9EEB /* open-log.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "open-log.sh"; path = "Scripts/open-log.sh"; sourceTree = "<group>"; };
+		739FEF092DA9CC17003D9EEB /* reset-throttle.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "reset-throttle.sh"; path = "Scripts/reset-throttle.sh"; sourceTree = "<group>"; };
+		739FEF0A2DA9CC17003D9EEB /* enable-spotlight.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "enable-spotlight.sh"; path = "Scripts/enable-spotlight.sh"; sourceTree = "<group>"; };
+		739FEF0B2DA9CC17003D9EEB /* delete-single-backup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "delete-single-backup.sh"; path = "Scripts/delete-single-backup.sh"; sourceTree = "<group>"; };
+		739FEF0C2DA9CC17003D9EEB /* clear-log.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "clear-log.sh"; path = "Scripts/clear-log.sh"; sourceTree = "<group>"; };
+		739FEF0D2DA9CC17003D9EEB /* pause-backup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "pause-backup.sh"; path = "Scripts/pause-backup.sh"; sourceTree = "<group>"; };
+		739FEF0E2DA9CC17003D9EEB /* stop-backup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "stop-backup.sh"; path = "Scripts/stop-backup.sh"; sourceTree = "<group>"; };
+		739FEF0F2DA9CC18003D9EEB /* BackupBooster.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = BackupBooster.sh; path = Scripts/BackupBooster.sh; sourceTree = "<group>"; };
+		739FEF102DA9CC18003D9EEB /* skip-backup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "skip-backup.sh"; path = "Scripts/skip-backup.sh"; sourceTree = "<group>"; };
+		739FEF112DA9CC18003D9EEB /* clean-old-backups.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "clean-old-backups.sh"; path = "Scripts/clean-old-backups.sh"; sourceTree = "<group>"; };
+		739FEF1F2DA9CC41003D9EEB /* config.conf */ = {isa = PBXFileReference; lastKnownFileType = text; name = config.conf; path = config/config.conf; sourceTree = "<group>"; };
+		739FEF212DA9CC6B003D9EEB /* de.markustratschitt.backupbooster.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de.markustratschitt.backupbooster.plist; path = LaunchAgent/de.markustratschitt.backupbooster.plist; sourceTree = "<group>"; };
+		739FEF232DA9CC8C003D9EEB /* BackupBooster.5m.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = BackupBooster.5m.sh; path = Plugins/BackupBooster.5m.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +152,22 @@
 		739FEEB62DA9462B003D9EEB = {
 			isa = PBXGroup;
 			children = (
+				739FEF232DA9CC8C003D9EEB /* BackupBooster.5m.sh */,
+				739FEF212DA9CC6B003D9EEB /* de.markustratschitt.backupbooster.plist */,
+				739FEF1F2DA9CC41003D9EEB /* config.conf */,
+				739FEF0F2DA9CC18003D9EEB /* BackupBooster.sh */,
+				739FEF112DA9CC18003D9EEB /* clean-old-backups.sh */,
+				739FEF0C2DA9CC17003D9EEB /* clear-log.sh */,
+				739FEF0B2DA9CC17003D9EEB /* delete-single-backup.sh */,
+				739FEF0A2DA9CC17003D9EEB /* enable-spotlight.sh */,
+				739FEF052DA9CC17003D9EEB /* latest-backup.sh */,
+				739FEF082DA9CC17003D9EEB /* open-log.sh */,
+				739FEF0D2DA9CC17003D9EEB /* pause-backup.sh */,
+				739FEF092DA9CC17003D9EEB /* reset-throttle.sh */,
+				739FEF072DA9CC17003D9EEB /* show-status.sh */,
+				739FEF102DA9CC18003D9EEB /* skip-backup.sh */,
+				739FEF062DA9CC17003D9EEB /* start-backup.sh */,
+				739FEF0E2DA9CC17003D9EEB /* stop-backup.sh */,
 				739FEEC12DA9462B003D9EEB /* BackupBooster */,
 				739FEED82DA9462F003D9EEB /* BackupBoosterTests */,
 				739FEEE22DA9462F003D9EEB /* BackupBoosterUITests */,
@@ -277,12 +337,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739FEECA2DA9462E003D9EEB /* Preview Assets.xcassets in Resources */,
-				739FEEF82DA94B86003D9EEB /* config in Resources */,
-				739FEEC72DA9462E003D9EEB /* Assets.xcassets in Resources */,
-				739FEEFB2DA94B86003D9EEB /* Plugins in Resources */,
-				739FEEF92DA94B86003D9EEB /* Scripts in Resources */,
-				739FEEFA2DA94B86003D9EEB /* LaunchAgent in Resources */,
+				739FEF3D2DA9CF82003D9EEB /* config in Resources */,
+				739FEF3E2DA9CF82003D9EEB /* LaunchAgent in Resources */,
+				739FEF3F2DA9CF82003D9EEB /* Plugins in Resources */,
+				739FEF402DA9CF82003D9EEB /* Scripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
