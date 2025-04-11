@@ -27,7 +27,7 @@ struct MainView: View {
                 Text("⏳ Verbleibend: \(timeLeft) Sek.")
                 Text("📂 Letztes Backup: \(lastBackup)")
             }
-
+            
             Divider()
             
             HStack(spacing: 20) {
@@ -44,7 +44,7 @@ struct MainView: View {
                     AppDelegate().runScript("open-log.sh")
                 }
             }
-
+            
             Spacer()
         }
         .padding()
@@ -53,7 +53,7 @@ struct MainView: View {
             updateStatus()
         }
     }
-
+    
     func updateStatus() {
         let statusTask = Process()
         statusTask.launchPath = "/bin/bash"
@@ -69,22 +69,22 @@ struct MainView: View {
             percent = Double(extract(from: output, key: "Percent")) ?? 0.0
             timeLeft = extract(from: output, key: "TimeRemaining")
         }
-
+        
         // Letztes Backup
         let lastTask = Process()
         lastTask.launchPath = "/bin/bash"
         lastTask.arguments = ["-c", "tmutil latestbackup | xargs basename"]
-
+        
         let lastPipe = Pipe()
         lastTask.standardOutput = lastPipe
         lastTask.launch()
-
+        
         let lastData = lastPipe.fileHandleForReading.readDataToEndOfFile()
         if let last = String(data: lastData, encoding: .utf8) {
             lastBackup = formatBackupDate(last.trimmingCharacters(in: .whitespacesAndNewlines))
         }
     }
-
+    
     func extract(from text: String, key: String) -> String {
         guard let line = text.components(separatedBy: "\n").first(where: { $0.contains(key) }) else { return "–" }
         return line.components(separatedBy: "=").last?
@@ -92,10 +92,18 @@ struct MainView: View {
             .replacingOccurrences(of: ";", with: "")
             .trimmingCharacters(in: .whitespacesAndNewlines) ?? "–"
     }
-
+    
     func formatBackupDate(_ raw: String) -> String {
         let pattern = #"(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})"# // YYYY-MM-DD-HHMM
         if let match = raw.range(of: pattern, options: .regularExpression) {
             let date = raw[match]
             let y = date.prefix(4)
-            let m = date
+            let m = date.dropFirst(5).prefix(2)
+            let d = date.dropFirst(8).prefix(2)
+            let h = date.dropFirst(11).prefix(2)
+            let min = date.dropFirst(13).prefix(2)
+            return "\(d).\(m).\(y) – \(h):\(min) Uhr"
+        }
+        return "-"
+    }
+}

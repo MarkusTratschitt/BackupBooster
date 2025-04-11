@@ -11,44 +11,39 @@ import SwiftUI
 struct Backup_Booster: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @AppStorage("appMode") var appMode: String = "menubar"
-
+    
     var body: some Scene {
+        // 🪟 Hauptfenster – nur wenn Fenster-Modus aktiv ist
         WindowGroup {
             if appMode == "window" {
                 MainView()
             } else {
-                EmptyView()
+                EmptyView() // keine Anzeige im Menüleistenmodus
             }
         }
-
-        Settings {
-            SettingsView()
-        }
-
-        // ➕ App-Menü-Befehle
-        Commands {
+        
+        // ⚙️ Einstellungen (SwiftUI Settings-Standard)
+        .commands {
             CommandGroup(replacing: .appSettings) {
-                Button("⚙️ Einstellungen…") {
-                    NSApp.sendAction(Selector(("showPreferencesWindow:")), to: nil, from: nil)
+                Button("⚙️ Einstellungen öffnen") {
+                    NSApplication.shared.sendAction(
+                        Selector(("showPreferencesWindow:")),
+                        to: nil,
+                        from: nil
+                    )
                 }
             }
-
+            
             CommandMenu("🌀 Backup Booster") {
                 Button("Dashboard anzeigen") {
-                    showDashboard()
+                    appDelegate.showDashboard()
                 }
                 .keyboardShortcut("d", modifiers: [.command, .shift])
             }
         }
-    }
-
-    // Zeigt das Fenster mit MainView, wenn z. B. aus dem Menü aufgerufen
-    private func showDashboard() {
-        let window = NSApplication.shared.windows.first { $0.contentView is NSHostingView<MainView> }
-        window?.makeKeyAndOrderFront(nil)
+        
+        Settings {
+            SettingsView()
+        }
     }
 }
-
-
-
-
