@@ -12,10 +12,10 @@
 		739FEEC72DA9462E003D9EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEC62DA9462E003D9EEB /* Assets.xcassets */; };
 		739FEECA2DA9462E003D9EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEC92DA9462E003D9EEB /* Preview Assets.xcassets */; };
 		739FEECC2DA9462E003D9EEB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEECB2DA9462E003D9EEB /* Persistence.swift */; };
-		739FEECF2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 739FEECD2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld */; };
-		739FEEDA2DA9462F003D9EEB /* Backup_BoosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */; };
-		739FEEE42DA9462F003D9EEB /* Backup_BoosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */; };
-		739FEEE62DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */; };
+		739FEECF2DA9462E003D9EEB /* BackupBooster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 739FEECD2DA9462E003D9EEB /* BackupBooster.xcdatamodeld */; };
+		739FEEDA2DA9462F003D9EEB /* BackupBoosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEED92DA9462F003D9EEB /* BackupBoosterTests.swift */; };
+		739FEEE42DA9462F003D9EEB /* BackupBoosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE32DA9462F003D9EEB /* BackupBoosterUITests.swift */; };
+		739FEEE62DA9462F003D9EEB /* BackupBoosterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEE52DA9462F003D9EEB /* BackupBoosterUITestsLaunchTests.swift */; };
 		739FEEF82DA94B86003D9EEB /* config in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF42DA94B86003D9EEB /* config */; };
 		739FEEF92DA94B86003D9EEB /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF52DA94B86003D9EEB /* Scripts */; };
 		739FEEFA2DA94B86003D9EEB /* LaunchAgent in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF62DA94B86003D9EEB /* LaunchAgent */; };
@@ -50,12 +50,12 @@
 		739FEEC92DA9462E003D9EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		739FEECB2DA9462E003D9EEB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		739FEECE2DA9462E003D9EEB /* Backup_Booster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Backup_Booster.xcdatamodel; sourceTree = "<group>"; };
-		739FEED02DA9462E003D9EEB /* Backup_Booster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Backup_Booster.entitlements; sourceTree = "<group>"; };
+		739FEED02DA9462E003D9EEB /* BackupBooster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BackupBooster.entitlements; sourceTree = "<group>"; };
 		739FEED52DA9462F003D9EEB /* BackupBoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackupBoosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterTests.swift; sourceTree = "<group>"; };
+		739FEED92DA9462F003D9EEB /* BackupBoosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupBoosterTests.swift; sourceTree = "<group>"; };
 		739FEEDF2DA9462F003D9EEB /* BackupBoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackupBoosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITests.swift; sourceTree = "<group>"; };
-		739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_BoosterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		739FEEE32DA9462F003D9EEB /* BackupBoosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupBoosterUITests.swift; sourceTree = "<group>"; };
+		739FEEE52DA9462F003D9EEB /* BackupBoosterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupBoosterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		739FEEF42DA94B86003D9EEB /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = SOURCE_ROOT; };
 		739FEEF52DA94B86003D9EEB /* Scripts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scripts; sourceTree = SOURCE_ROOT; };
 		739FEEF62DA94B86003D9EEB /* LaunchAgent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LaunchAgent; sourceTree = SOURCE_ROOT; };
@@ -93,9 +93,9 @@
 		739FEEB62DA9462B003D9EEB = {
 			isa = PBXGroup;
 			children = (
-				739FEEC12DA9462B003D9EEB /* Backup Booster */,
-				739FEED82DA9462F003D9EEB /* Backup BoosterTests */,
-				739FEEE22DA9462F003D9EEB /* Backup BoosterUITests */,
+				739FEEC12DA9462B003D9EEB /* BackupBooster */,
+				739FEED82DA9462F003D9EEB /* BackupBoosterTests */,
+				739FEEE22DA9462F003D9EEB /* BackupBoosterUITests */,
 				739FEEC02DA9462B003D9EEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		739FEEC12DA9462B003D9EEB /* Backup Booster */ = {
+		739FEEC12DA9462B003D9EEB /* BackupBooster */ = {
 			isa = PBXGroup;
 			children = (
 				739FEF002DA960EE003D9EEB /* MainView.swift */,
@@ -124,11 +124,11 @@
 				739FEEC42DA9462B003D9EEB /* ContentView.swift */,
 				739FEEC62DA9462E003D9EEB /* Assets.xcassets */,
 				739FEECB2DA9462E003D9EEB /* Persistence.swift */,
-				739FEED02DA9462E003D9EEB /* Backup_Booster.entitlements */,
-				739FEECD2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld */,
+				739FEED02DA9462E003D9EEB /* BackupBooster.entitlements */,
+				739FEECD2DA9462E003D9EEB /* BackupBooster.xcdatamodeld */,
 				739FEEC82DA9462E003D9EEB /* Preview Content */,
 			);
-			path = "Backup Booster";
+			path = BackupBooster;
 			sourceTree = "<group>";
 		};
 		739FEEC82DA9462E003D9EEB /* Preview Content */ = {
@@ -139,21 +139,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		739FEED82DA9462F003D9EEB /* Backup BoosterTests */ = {
+		739FEED82DA9462F003D9EEB /* BackupBoosterTests */ = {
 			isa = PBXGroup;
 			children = (
-				739FEED92DA9462F003D9EEB /* Backup_BoosterTests.swift */,
+				739FEED92DA9462F003D9EEB /* BackupBoosterTests.swift */,
 			);
-			path = "Backup BoosterTests";
+			path = BackupBoosterTests;
 			sourceTree = "<group>";
 		};
-		739FEEE22DA9462F003D9EEB /* Backup BoosterUITests */ = {
+		739FEEE22DA9462F003D9EEB /* BackupBoosterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				739FEEE32DA9462F003D9EEB /* Backup_BoosterUITests.swift */,
-				739FEEE52DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift */,
+				739FEEE32DA9462F003D9EEB /* BackupBoosterUITests.swift */,
+				739FEEE52DA9462F003D9EEB /* BackupBoosterUITestsLaunchTests.swift */,
 			);
-			path = "Backup BoosterUITests";
+			path = BackupBoosterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +293,7 @@
 				739FEECC2DA9462E003D9EEB /* Persistence.swift in Sources */,
 				739FEF012DA960EE003D9EEB /* MainView.swift in Sources */,
 				739FEEC52DA9462B003D9EEB /* ContentView.swift in Sources */,
-				739FEECF2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld in Sources */,
+				739FEECF2DA9462E003D9EEB /* BackupBooster.xcdatamodeld in Sources */,
 				739FEEFF2DA95D5D003D9EEB /* SettingsView.swift in Sources */,
 				739FEEFD2DA954C1003D9EEB /* AppDelegate.swift in Sources */,
 				739FEEC32DA9462B003D9EEB /* Backup_BoosterApp.swift in Sources */,
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739FEEDA2DA9462F003D9EEB /* Backup_BoosterTests.swift in Sources */,
+				739FEEDA2DA9462F003D9EEB /* BackupBoosterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,8 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739FEEE42DA9462F003D9EEB /* Backup_BoosterUITests.swift in Sources */,
-				739FEEE62DA9462F003D9EEB /* Backup_BoosterUITestsLaunchTests.swift in Sources */,
+				739FEEE42DA9462F003D9EEB /* BackupBoosterUITests.swift in Sources */,
+				739FEEE62DA9462F003D9EEB /* BackupBoosterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,13 +614,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		739FEECD2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld */ = {
+		739FEECD2DA9462E003D9EEB /* BackupBooster.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				739FEECE2DA9462E003D9EEB /* Backup_Booster.xcdatamodel */,
 			);
 			currentVersion = 739FEECE2DA9462E003D9EEB /* Backup_Booster.xcdatamodel */;
-			path = Backup_Booster.xcdatamodeld;
+			path = BackupBooster.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

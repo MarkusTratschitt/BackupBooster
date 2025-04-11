@@ -1,5 +1,5 @@
 #!/bin/bash
-# <xbar.title>Turbo Time Machine</xbar.title>
+# <xbar.title>Backup Booster</xbar.title>
 # <xbar.version>v1.4</xbar.version>
 # <xbar.author>Markus Tratschitt</xbar.author>
 # <xbar.desc>Time Machine überwachen & steuern</xbar.desc>
