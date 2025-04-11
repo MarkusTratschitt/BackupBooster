@@ -20,6 +20,9 @@
 		739FEEF92DA94B86003D9EEB /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF52DA94B86003D9EEB /* Scripts */; };
 		739FEEFA2DA94B86003D9EEB /* LaunchAgent in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF62DA94B86003D9EEB /* LaunchAgent */; };
 		739FEEFB2DA94B86003D9EEB /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 739FEEF72DA94B86003D9EEB /* Plugins */; };
+		739FEEFD2DA954C1003D9EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEFC2DA954C1003D9EEB /* AppDelegate.swift */; };
+		739FEEFF2DA95D5D003D9EEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEEFE2DA95D5D003D9EEB /* SettingsView.swift */; };
+		739FEF012DA960EE003D9EEB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FEF002DA960EE003D9EEB /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		739FEEF52DA94B86003D9EEB /* Scripts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scripts; sourceTree = SOURCE_ROOT; };
 		739FEEF62DA94B86003D9EEB /* LaunchAgent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LaunchAgent; sourceTree = SOURCE_ROOT; };
 		739FEEF72DA94B86003D9EEB /* Plugins */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Plugins; sourceTree = SOURCE_ROOT; };
+		739FEEFC2DA954C1003D9EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		739FEEFE2DA95D5D003D9EEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		739FEF002DA960EE003D9EEB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 		739FEEC12DA9462B003D9EEB /* Backup Booster */ = {
 			isa = PBXGroup;
 			children = (
+				739FEF002DA960EE003D9EEB /* MainView.swift */,
+				739FEEFE2DA95D5D003D9EEB /* SettingsView.swift */,
+				739FEEFC2DA954C1003D9EEB /* AppDelegate.swift */,
 				739FEEC22DA9462B003D9EEB /* Backup_BoosterApp.swift */,
 				739FEEF42DA94B86003D9EEB /* config */,
 				739FEEF62DA94B86003D9EEB /* LaunchAgent */,
@@ -282,8 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				739FEECC2DA9462E003D9EEB /* Persistence.swift in Sources */,
+				739FEF012DA960EE003D9EEB /* MainView.swift in Sources */,
 				739FEEC52DA9462B003D9EEB /* ContentView.swift in Sources */,
 				739FEECF2DA9462E003D9EEB /* Backup_Booster.xcdatamodeld in Sources */,
+				739FEEFF2DA95D5D003D9EEB /* SettingsView.swift in Sources */,
+				739FEEFD2DA954C1003D9EEB /* AppDelegate.swift in Sources */,
 				739FEEC32DA9462B003D9EEB /* Backup_BoosterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
