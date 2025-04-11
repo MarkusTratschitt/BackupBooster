@@ -63,6 +63,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func askForInitialMode() {
+        NSApp.activate(ignoringOtherApps: true)
         let alert = NSAlert()
         alert.messageText = "App-Modus wählen"
         alert.informativeText = "Möchtest du Backup Booster in der Menüleiste oder mit einem Fenster nutzen?"
@@ -81,6 +82,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func askForAutostart() {
+        NSApp.activate(ignoringOtherApps: true)
         let alert = NSAlert()
         alert.messageText = "Autostart aktivieren?"
         alert.informativeText = "Soll Backup Booster beim Start deines Macs automatisch mitstarten?"
@@ -172,6 +174,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func showDashboard() {
+        NSApp.activate(ignoringOtherApps: true)
         for window in NSApplication.shared.windows {
             if window.contentView is NSHostingView<MainView> {
                 window.makeKeyAndOrderFront(nil)

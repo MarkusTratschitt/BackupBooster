@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Turbo Time Machine Monitor Script für macOS
+# BackupBooster - Turbo Time Machine Monitor Script für macOS
 
 # 🔧 Konfigurationsdatei laden (optional)
 CONFIG_FILE="$HOME/Library/Application Support/BackupBooster/config.conf"
@@ -38,6 +38,10 @@ fi
 
 echo "📡 Backup-Monitor gestartet. Drücke STRG+C zum Beenden."
 echo "------------------------------------------------------"
+
+# 📁 Logfile definieren
+LOGFILE="${LOGFILE:-$HOME/Library/Logs/backupbooster.log}"
+touch "$LOGFILE"
 
 # 📓 Logging-Funktion mit Rotation
 log_entry() {

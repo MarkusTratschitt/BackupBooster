@@ -1,6 +1,6 @@
 //
-//  Backup_BoosterApp.swift
-//  Backup Booster
+//  BackupBoosterApp.swift
+//  BackupBooster
 //
 //  Created by Markus Tratschitt on 11.04.25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Backup_Booster: App {
+struct BackupBooster: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @AppStorage("appMode") var appMode: String = "menubar"
     
