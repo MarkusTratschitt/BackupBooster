@@ -70,6 +70,28 @@ while true; do
     if [[ "$PERCENT_DISPLAY" != "?" ]] && (( $(echo "$PERCENT_DISPLAY >= 99.9" | bc -l) )); then
       osascript -e 'display notification "Backup abgeschlossen!" with title "✅ Time Machine" sound name "Submarine"'
       echo "✅ Backup abgeschlossen – Notification wurde gesendet."
+      
+      # 📬 Optional: E-Mail via Mail.app senden
+    if [[ -n "$EMAIL_NOTIFY" ]]; then
+        osascript <<EOD
+tell application "Mail"
+    set logFile to POSIX file "$LOGFILE" as alias
+    set newMessage to make new outgoing message with properties {{
+        subject:"✅ Time Machine Backup abgeschlossen",
+        content:"Hallo,\n\ndas Backup wurde erfolgreich abgeschlossen am $(date).\nDas aktuelle Logfile ist angehängt.\n\nViele Grüße,\nBackup Booster",
+        visible:false
+    }}
+    tell newMessage
+        make new to recipient at end of to recipients with properties {{address:"$EMAIL_NOTIFY"}}
+        make new attachment with properties {{file name:logFile}} at after the last word of the last paragraph
+        send
+    end tell
+end tell
+EOD
+
+        echo "✉️ E-Mail an $EMAIL_NOTIFY wurde über Mail.app versendet."
+    fi
+      
       break
     fi
   fi
