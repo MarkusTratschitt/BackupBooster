@@ -8,6 +8,7 @@
 import Cocoa
 import SwiftUI
 
+@main
 class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
 
@@ -60,6 +61,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
             statusItem?.menu = menu
         }
+
+        // Fenster anzeigen
+        WindowController.shared.showWindow()
     }
 
     func askForInitialMode() {
