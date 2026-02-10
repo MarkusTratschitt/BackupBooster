@@ -243,9 +243,11 @@ BackupBooster includes a plugin for [xbar](https://xbarapp.com/) (formerly BitBa
    # Old path: bash="$HOME/TurboMonitor/Scripts/..."
    # New path: bash="$HOME/BackupBooster/Scripts/..."
    
-   # Example using sed:
+   # Example using sed (macOS):
    sed -i '' 's/TurboMonitor/BackupBooster/g' ~/Library/Application\ Support/xbar/plugins/BackupBooster.5m.sh
    ```
+   
+   Note: This command uses macOS's BSD sed syntax. Users can also manually edit the file or use their preferred text editor.
 
 4. **Refresh xbar**:
    - Click the xbar menu and select "Refresh all"
@@ -443,9 +445,9 @@ TIMESTAMP | PHASE | PROGRESS% | TIME_REMAINING seconds
 
 Example:
 ```
-2024-04-15 14:23:45|Copying|45.3%|1234 Sek.
-2024-04-15 14:25:12|Copying|67.8%|789 Sek.
-2024-04-15 14:26:30|Finishing|99.9%|5 Sek.
+2024-04-15 14:23:45|Copying|45.3%|1234 sec.
+2024-04-15 14:25:12|Copying|67.8%|789 sec.
+2024-04-15 14:26:30|Finishing|99.9%|5 sec.
 ```
 
 ### Log Rotation
