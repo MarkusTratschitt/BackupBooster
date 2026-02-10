@@ -237,12 +237,14 @@ BackupBooster includes a plugin for [xbar](https://xbarapp.com/) (formerly BitBa
    ```
 
 3. **Update script paths in the plugin**:
-   Edit `BackupBooster.5m.sh` and update the paths to point to your Scripts directory:
+   The plugin file currently contains legacy paths that need to be updated. Edit `BackupBooster.5m.sh` and replace all instances of `TurboMonitor` with `BackupBooster`:
    ```bash
-   # Change from:
-   bash="$HOME/TurboMonitor/Scripts/start-backup.sh"
-   # To:
-   bash="$HOME/BackupBooster/Scripts/start-backup.sh"
+   # Find and replace:
+   # Old path: bash="$HOME/TurboMonitor/Scripts/..."
+   # New path: bash="$HOME/BackupBooster/Scripts/..."
+   
+   # Example using sed:
+   sed -i '' 's/TurboMonitor/BackupBooster/g' ~/Library/Application\ Support/xbar/plugins/BackupBooster.5m.sh
    ```
 
 4. **Refresh xbar**:
